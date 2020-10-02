@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: pod
+metadata:
+  name: pod-examples
+spec: pod
+  containers: 
+  - name: ubuntu
+    image: ubuntu
+    command: ["echo"]
+    rgs: ["Hello world"]
+    
+    
