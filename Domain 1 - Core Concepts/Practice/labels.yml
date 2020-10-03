@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod 
 metadata: 
   name: label-node
-  lables: 
+  labels:
     env: production
     app: nginxwebserver
 spec:
