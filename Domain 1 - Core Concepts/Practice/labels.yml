@@ -8,7 +8,7 @@ metadata:
 spec:
   containers: 
     - image: nginx 
-      name: c_nginx 
+      name: cnginx 
     - image: busybox 
-      name: c_busybox
+      name: cbusybox
       
