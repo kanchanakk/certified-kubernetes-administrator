@@ -1,10 +1,10 @@
 apiVersion: v1
-kind: Pod 
-metadata: 
+kind: Pod
+metadata:
   name: csk-ubn
-spec: 
-  containers: 
-    - name: myubntu
-      image: ubuntu
-      command: ["echo"]
-      args: ["Hello World"]
+spec:
+  containers:
+  - name: ubuntu
+    image: ubuntu:trusty
+    command: ["echo"]
+    args: ["Hello World"]
