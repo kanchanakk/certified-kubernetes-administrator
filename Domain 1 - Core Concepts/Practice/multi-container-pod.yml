@@ -9,5 +9,5 @@ spec:
     -  image: Busybox
        name: c2
        command: 
-         -  sleep: 
+         -  sleep
          -  "3600"
