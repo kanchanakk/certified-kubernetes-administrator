@@ -11,5 +11,5 @@ spec:
        command: 
          -  sleep
          -  "3600"
-    - image: psql
+    - image: postgres
       name: c3
