@@ -3,7 +3,8 @@ kind: Pod
 metadata: 
   name: nginxwebserver
 spec: 
-  -  image: nginxwebserver
-     name: c1
-  -  image: Busybox
-     name: c2
+  containers: 
+    -  name: c1
+      image: ubuntu
+    -  name: c2
+      image: Busybox
