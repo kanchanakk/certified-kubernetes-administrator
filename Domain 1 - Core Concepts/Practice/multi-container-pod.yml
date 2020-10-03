@@ -6,7 +6,7 @@ spec:
   containers: 
     -  image: nginx
        name: c1
-    -  image: Busybox
+    -  image: busybox
        name: c2
        command: 
          -  sleep
