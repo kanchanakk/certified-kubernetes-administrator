@@ -6,4 +6,4 @@ spec:
   -  image: nginxwebserver
      name: c1
   -  image: Busybox
-     name: c
+     name: c2
