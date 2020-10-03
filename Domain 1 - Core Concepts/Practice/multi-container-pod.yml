@@ -8,3 +8,6 @@ spec:
        name: c1
     -  image: Busybox
        name: c2
+       command: 
+         -  sleep: 
+         -  "3600"
