@@ -4,7 +4,7 @@ metadata:
   name: nginxwebserver
 spec: 
   containers: 
-    -  name: c1
-      image: ubuntu
-    -  name: c2
-      image: Busybox
+    -  image: nginx
+       name: c1
+    -  image: Busybox
+       name: c2
